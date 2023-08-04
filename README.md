@@ -30,16 +30,46 @@ Manchester United football club wants to know which player they should sign for 
 - AerialsWon: Aerial duels won
 - Rating: Rating per match
 
-## Analysis
-- Check the number of players with ages less than and greater than 25 years.
-   -  Observation: Six players with ages less than 25 years
+## Exploratory Data Analysis
+- **Check the number of players with ages less than and greater than 25 years.**
+   -  **Observation:** Six players with ages less than 25 years
   
-![image](https://github.com/aditigangar-dataanalystduo/football-players-data-analysis/assets/110927056/afea6e2e-3247-4e46-9a03-9fe75a4f7518)
+![image](https://github.com/aditigangar-dataanalystduo/football-players-data-analysis/assets/110927056/206f69f7-b750-4d1e-aa5e-119f063d87ae)
 
-- Check the number of players played in English premier league.
-  - Observation: Three players have played in English premier league
+- **Check the number of players played in the English premier league.**
+  - **Observation:** Three players have played in the English premier league
 
-![image](https://github.com/aditigangar-dataanalystduo/football-players-data-analysis/assets/110927056/168bb187-d13e-49ad-b861-256e12f92a2d)
+![image](https://github.com/aditigangar-dataanalystduo/football-players-data-analysis/assets/110927056/00d05be1-467f-4823-b006-25694dbaef38)
+
+- **Check the total number of goals & assists scored by each player**
+   - **Observation:**
+      - Victor Osimhen & Harry Kane are the top 2 in goals.
+      - Randal Kolo Muani is at the top for assists.
+      - Six players with goal contributions of more than 20.
+    
+![image](https://github.com/aditigangar-dataanalystduo/football-players-data-analysis/assets/110927056/4f7f68a4-b08f-4cb2-a015-4a99642229c4)
+   
+- **Check the average no. of Shots, PS%, AerialsWon & Ratings per match by each player**
+   - **Observation:** Top players based on, 
+      - Avg. Shots per match – Mitrovic & Osimhen
+      - Avg.  PS% per match – David, Ramos, Thuram, Højlund
+      - Avg.  AerialsWon per match – Mitrovic, Toney
+      - Avg. Rating – Multiple players
+
+![image](https://github.com/aditigangar-dataanalystduo/football-players-data-analysis/assets/110927056/81a7330d-3467-49ed-ac7d-d4710fc8621c)
+
+- **Check the Mean, Median & Mode Ratings per match by each player**
+   - **Observation:**
+      - Not much difference between the players
+
+![image](https://github.com/aditigangar-dataanalystduo/football-players-data-analysis/assets/110927056/f9fa5d34-d164-446b-a7ae-27d7d033ecbd)
+
+- **Check Variance & Std. Deviation for each player to find the player whose ratings vary the least**
+   - **Observation:**
+      - If the standard deviation is high, this means that values are typically a long way from the mean. If the standard deviation is low, values tend to be close to the mean
+      - **Harry Kane** & **Dusan Vlahovic** are the players which Manchester United should target. Both players satisfy the criteria.
+
+![image](https://github.com/aditigangar-dataanalystduo/football-players-data-analysis/assets/110927056/e765e74c-103d-43b1-8c5d-7905853211b6)
 
 
 ## Note
